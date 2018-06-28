@@ -31,6 +31,8 @@ namespace UITestDemo.UITest
                     .StartApp();
             }
 
+            Environment.SetEnvironmentVariable("UITEST_FORCE_IOS_SIM_RESTART", "1");
+
             return ConfigureApp
                 .iOS
                 // TODO: Update this path to point to your iOS app and uncomment the
@@ -42,6 +44,8 @@ namespace UITestDemo.UITest
                 // configuration & a valid provisioning profile, and preinstalling
                 // it on the target device.
                 // .InstalledApp("com.companyname.UITestDemo")
+
+
                 .StartApp();
         }
     }
