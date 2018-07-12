@@ -20,6 +20,15 @@ namespace UITestDemo
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Seventh item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Eighth item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Ninth item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Tenth item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Eleventh item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Twelfth item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Thirteenth item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourteenth item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifteenth item", Description="This is an item description." },
             };
 
             foreach (var item in mockItems)

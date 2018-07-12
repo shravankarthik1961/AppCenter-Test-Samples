@@ -43,5 +43,17 @@ namespace UITestDemo.UITest
             app.Screenshot("Text cleared & replaced");
             app.Back();
         }
+
+        [Test]
+        public void ScrollDownTo()
+        {
+            //app.Repl();
+            app.Screenshot("About to ScrollDownTo 14th item");
+            app.ScrollDownTo(x => x.Text("Fourteenth item"));
+
+            app.Screenshot("Finished Scrolling");
+            app.Tap(x => x.Text("Fourteenth item"));
+            app.Screenshot("Tapped 14th item");
+        }
     }
 }
