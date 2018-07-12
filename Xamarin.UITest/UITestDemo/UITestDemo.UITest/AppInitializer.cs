@@ -37,6 +37,7 @@ namespace UITestDemo.UITest
                 // TODO: Update this path to point to your iOS app and uncomment the
                 // code if the app is not included in the solution. 
                 // The .AppBundle method is only supported for iOS simulators.
+                // if using precompiledApps/UITestDemo.iOS.app be sure to unzip it first.
                  //.AppBundle ("../../../precompiledApps/UITestDemo.iOS.app")
                 // 
                 // .InstalledApp requires you to build an IPA using the Debug 
