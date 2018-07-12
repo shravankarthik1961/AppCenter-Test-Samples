@@ -19,7 +19,8 @@ namespace UITestDemo
                 DependencyService.Register<CloudDataStore>();
 
             if (Device.RuntimePlatform == Device.iOS)
-                MainPage = new MainPage();
+                //MainPage = new MainPage();
+                MainPage = new ItemsPage();
             else
                 MainPage = new NavigationPage(new MainPage());
         }
