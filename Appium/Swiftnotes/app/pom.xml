@@ -4,7 +4,12 @@
   <groupId>Swiftnotes</groupId>
   <artifactId>app</artifactId>
   <version>unspecified</version>
-  <dependencies/>
+  <repositories>
+    <repository>
+      <id>jcenter</id>
+      <url>https://jcenter.bintray.com</url>
+    </repository>
+  </repositories>
   <profiles>
     <profile>
       <id>prepare-for-upload</id>
