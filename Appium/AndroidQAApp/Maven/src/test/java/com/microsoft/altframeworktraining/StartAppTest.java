@@ -58,7 +58,7 @@ public class StartAppTest {
 		Thread.sleep(10000);
     }
     
-   // @Test
+   // @Test1
     public void loginAndBookFlightTest() throws MalformedURLException, InterruptedException {
         driver = startApp();
 
