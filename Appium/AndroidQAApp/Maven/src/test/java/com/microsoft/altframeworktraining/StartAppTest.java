@@ -57,6 +57,13 @@ public class StartAppTest {
 		elem4.click();
 		Thread.sleep(10000);
     }
+   
+   @Test
+   public void loginAppTest2() throws MalformedURLException, InterruptedException {
+       driver = startApp();
+
+		Thread.sleep(12000);
+   }
     
    // @Test1
     public void loginAndBookFlightTest() throws MalformedURLException, InterruptedException {
