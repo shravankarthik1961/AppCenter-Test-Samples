@@ -26,7 +26,7 @@ public class StartAppTest {
 
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "android");
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "foo");
-        capabilities.setCapability(MobileCapabilityType.APP, "[path to local repo]/Appium/Android/app-qa.apk");
+        capabilities.setCapability(MobileCapabilityType.APP, "[path to local repo]/Appium/AndroidQAApp/appqa.apk");
         capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 7913);
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
 
@@ -35,7 +35,6 @@ public class StartAppTest {
         return Factory.createAndroidDriver(url, capabilities);
     }
 
-    //Login to the application
    @Test
     public void loginAppTest() throws MalformedURLException, InterruptedException {
         driver = startApp();
@@ -59,7 +58,6 @@ public class StartAppTest {
 		Thread.sleep(10000);
     }
     
-    //Login and search flight
    // @Test
     public void loginAndBookFlightTest() throws MalformedURLException, InterruptedException {
         driver = startApp();
